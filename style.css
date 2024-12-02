@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #C8AA6E;
+}
+
+#comp {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+img {
+  box-shadow: 10px 10px 20px rgba(0.5, 0.5, 0.5, 0.5);
+  border: solid;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 10px auto;
+  display: block;
+}
+
+#banner {
+  border: 10px;
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 5vw;
+  text-align: center;
+  color: midnightblue;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  margin: 10px 5px;
+}
+
+#teste {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#Esports {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+#txtesport {
+  text-align: left;
+  font-size: 23px;
+}
+
+#test2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+#funciona {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+#test3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#lanes {
+  font-size: 25px;
+}
+
+#botao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 25px;
+}
+
+header {
+  background-color: #005A82;
+  padding: 10px 0;
+}
+
+#test4 {
+  padding: 5%;
+}
+
+a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+#txt2 {
+  margin-left: 5px;
+  font-size: 23px;
+}
+
+footer {
+  margin-top: 15px;
+  text-align: center;
+  padding: 10px;
+  background-color: #005A82;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 8vw;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  #funciona {
+    font-size: 25px;
+  }
+
+  #Esports {
+    font-size: 30px;
+  }
+
+  #txtesport,
+  #txt2 {
+    font-size: 18px;
+  }
+
+  #banner {
+    font-size: 8vw;
+  }
+
+  #botao {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
+
+  #faker, #estadio {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+  }
+}
